@@ -1,0 +1,25 @@
+.holder{
+    height: 140px;
+    width: 400px;
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 150px auto 0 auto;
+    border: blue solid 2px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px gray;
+}
+
+button{
+    font-size: 1rem;
+    color: black;
+    background-color: lightseagreen;
+    padding: 0.8rem;
+    border: none;
+    box-shadow: 0 5px 5px grey;
+}
+
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 20px;
+}

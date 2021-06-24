@@ -1,0 +1,25 @@
+h1 {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px darkgrey;
+}
+
+.components-holder{
+    display: flex;
+    gap: 20px;
+    background-color: lightskyblue;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+a{
+    all:unset;
+    background-color:lightskyblue;
+    padding: 0.8rem;
+    color: darkslateblue;
+    cursor: pointer;
+    box-shadow: 0 5px 5px grey;
+    border-radius: 5px;
+}

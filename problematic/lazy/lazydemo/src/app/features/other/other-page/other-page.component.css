@@ -1,0 +1,12 @@
+p{
+    background-color:lightpink;
+    height: 200px;
+    padding: 1rem;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 5px 5px grey;
+    max-width: 600px;
+    margin: 20px auto 0 auto;
+}

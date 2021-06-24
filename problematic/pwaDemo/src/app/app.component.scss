@@ -1,0 +1,23 @@
+.toolbar{
+    background-color: lightcyan;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 20px 2rem;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    all: unset;
+    font-size: 1rem;
+    margin: 0 50px;
+    cursor: pointer;
+    padding: 0.8rem;
+    border-radius: 10px;
+    color: blue;
+}
+
+a:hover{
+    background-color: rgb(49, 168, 168);
+
+}

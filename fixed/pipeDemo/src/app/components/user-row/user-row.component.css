@@ -1,0 +1,7 @@
+.row-holder{
+    display:  flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 0.6rem 0;
+    width: 400px;
+}

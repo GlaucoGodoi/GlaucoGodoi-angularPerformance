@@ -1,0 +1,23 @@
+p{
+    background-color: teal;
+    color: white;
+    padding: 40px;
+    margin: 50px;
+    border: solid 2px lightgreen;
+    box-shadow: 0 5px 5px yellow;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.pulse{
+    animation-name: pulse-keys;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse-keys {
+    0%{box-shadow: 0px 1px 20px yellow;}
+    50%{box-shadow: none}
+    100%{box-shadow: 0px 1px 20px yellow;}
+}

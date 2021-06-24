@@ -1,0 +1,38 @@
+.main-holder{
+    border-radius: 10px;
+    border: 3px solid yellow;
+    background-color: lightgoldenrodyellow;
+    width: 350px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 5px 5px grey;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.group-holder{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 15px 0;
+    height: 50px;    
+
+    label{
+        min-width: 200px;
+        border: solid 2px gray;
+        min-height: 3rem;
+        border-radius: 5px;
+        padding: 0.8rem;
+    }
+
+    .price{
+        text-align: right;
+    }
+}
+
+.detail-holder{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    gap:30px
+}

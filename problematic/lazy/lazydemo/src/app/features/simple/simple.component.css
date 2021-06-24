@@ -1,0 +1,13 @@
+p{
+    margin-bottom: 70px;
+}
+
+
+a{
+    all:unset;
+    background-color:lightskyblue;
+    padding: 0.8rem;
+    color: darkslateblue;
+    cursor: pointer;
+    box-shadow: 0 5px 5px grey;
+}

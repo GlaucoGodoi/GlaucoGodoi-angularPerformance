@@ -1,0 +1,13 @@
+<div class="page-holder">
+  <h1>User list</h1>
+
+  <ul>
+    <li *ngFor="let user of users">
+      <app-user-row [user]="user" [rank]="user.name|rankCalculator"></app-user-row>
+    </li>
+  </ul>
+  <div class="actions-holder">
+    <button type="button" (click)="updateSingleUser()">Update single user</button>
+    <button type="button" (click)="addUser()">Add new user</button>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.identifier {
+    font-size: 0.8rem;
+    position: relative;
+    right: -80%;
+    margin: 5px;
+}

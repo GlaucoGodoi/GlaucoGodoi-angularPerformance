@@ -1,0 +1,18 @@
+
+button{
+    font-size: 1rem;
+    border: none;
+    background-color: cornflowerblue;
+    color: yellow;
+    padding: 0.8rem;
+    margin-top: 20px;
+    box-shadow: 0 5px 5px grey;
+}
+
+button:active{
+    box-shadow: none;
+}
+
+button:hover{
+    background-color: darkblue;
+}

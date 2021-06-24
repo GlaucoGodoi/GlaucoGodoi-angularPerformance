@@ -1,0 +1,31 @@
+ul{
+    all: unset;    
+}
+
+li{
+    all:unset;
+}
+
+.row-holder{
+    margin: 5px 0;
+    display: flex;
+    gap: 10px;
+
+    .id{
+        width: 2ch;
+    }
+
+    .name{
+        width: 350px;
+    }
+
+    .code{
+        width: 200px;
+        text-align: right;
+    }
+}
+
+.header{
+    text-align: center;;
+}
+
